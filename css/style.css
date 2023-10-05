@@ -73,6 +73,7 @@ main {
     width: 528px;
     height: 45px;
     background-color: #778A50;
+    margin: 0 0 10px 0;
 }
 
 .MainDivLabel {
@@ -81,7 +82,14 @@ main {
     color: #EDF2C5;
 }
 
+.ThreeImg {
+    display: flex;
+    justify-content: space-between;
+}
+
 .ContactDiv {
+    width: 528px;
+    height: 140px;
     background-color: #F7FBDA;
 }
 
@@ -92,6 +100,11 @@ main {
 .container {
     display: flex;
     justify-content: space-between;
+}
+
+.containerdiv {
+    width: 528px;
+    height: 201px;
 }
 
 footer {
