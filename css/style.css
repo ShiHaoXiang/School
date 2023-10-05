@@ -1,12 +1,13 @@
-html {
+body {
     background-color: #EDF2C5;
-    width: 1440px;
-    height: 1024px;
+    max-width: 1440px;
+    max-height: 1024px;
 }
 
 header {
     width: 1122px;
     height: 62px;
+    margin: 16px auto;
 }
 
 .v-line {
@@ -38,7 +39,7 @@ header {
     align-items: center;
 }
 
-header div div label {
+header div div span {
     border: 1px solid #778A50;
     color: #778A50;
 }
@@ -52,11 +53,40 @@ nav {
     width: 1120px;
     height: 44px;
     background-color: #778A50;
+    margin: 16px auto;
+}
+
+nav label {
+    width: 49px;
+    height: 24px;
+    font-weight: bold;
+    color: #EDF2C5;
 }
 
 main {
     width: 1120px;
     height: 681px;
+    margin: 0 auto;
+}
+
+.MainDiv {
+    width: 528px;
+    height: 45px;
+    background-color: #778A50;
+}
+
+.MainDivLabel {
+    width: 94px;
+    height: 24px;
+    color: #EDF2C5;
+}
+
+.ContactDiv {
+    background-color: #F7FBDA;
+}
+
+.ContactDiv label {
+    color: #7D7D7D;
 }
 
 .container {
@@ -67,7 +97,16 @@ main {
 footer {
     width: 1440px;
     height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: #778A50;
+}
+
+footer label {
+    width: 302px;
+    height: 18px;
+    color: #EDF2C5;
 }
 
 .Head1 {
@@ -77,5 +116,15 @@ footer {
 
 .Head2 {
     font-size: 16px;
-    line-height: 150%;
+    line-height: 24px;
+}
+
+.Text1 {
+    font-size: 14px;
+    line-height: normal;
+}
+
+.Text2 {
+    font-size: 12px;
+    line-height: 18px;
 }
