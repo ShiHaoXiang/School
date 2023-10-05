@@ -30,6 +30,8 @@ header {
     width: 253px;
     height: 60px;
     white-space: nowrap;
+    display: flex;
+    justify-items: left;
     color: #778A50;
 }
 
@@ -74,7 +76,7 @@ nav {
 nav label {
     height: 24px;
     color: #EDF2C5;
-    margin: 10px 10px;
+    margin: 10px 30px;
 }
 
 main {
@@ -87,7 +89,7 @@ main {
     width: 528px;
     height: 45px;
     background-color: #778A50;
-    margin: 0 0 10px 0;
+    margin: 10px 0 20px 0;
     display: flex;
     align-items: center;
 }
@@ -96,7 +98,7 @@ main {
     width: 94px;
     height: 24px;
     color: #EDF2C5;
-    margin: 0 10px;
+    margin: 0 30px;
 }
 
 .ThreeImg {
@@ -108,9 +110,14 @@ main {
     width: 528px;
     height: 140px;
     background-color: #F7FBDA;
+    display: flex;
+    justify-items: center;
+    align-items: center;
 }
 
 .ContactDiv label {
+    display: block;
+    margin: 30px;
     color: #7D7D7D;
 }
 
@@ -132,6 +139,7 @@ footer {
     justify-content: center;
     align-items: center;
     background-color: #778A50;
+    margin: 10% 0 0 0;
 }
 
 footer label {
